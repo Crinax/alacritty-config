@@ -1,0 +1,23 @@
+font:
+  bold:
+    family: Fira Code Nerd Font Mono
+    style: bold
+  italic:
+    family: Fira Code Nerd Font Mono
+    style: MediumItalic
+  normal:
+    family: Fira Code Nerd Font Mono
+    style: Regular
+
+window:
+  decorations: none
+  startup_mode: Maximized
+  opacity: 0.90
+  padding:
+    x: 0
+    y: 0
+
+key_bindings:
+  - { key: F1,      chars: "nvim\n" }
+  - { key: F2,      chars: "cd $(cat ~/.last-session)\n" }
+  - { key: F3,      action: CreateNewWindow }

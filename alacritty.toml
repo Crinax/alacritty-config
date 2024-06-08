@@ -1,0 +1,36 @@
+[font.bold]
+family = "Fira Code Nerd Font Mono"
+style = "bold"
+
+[font.italic]
+family = "Fira Code Nerd Font Mono"
+style = "MediumItalic"
+
+[font.normal]
+family = "Fira Code Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = """
+nvim
+"""
+key = "F1"
+
+[[keyboard.bindings]]
+chars = """
+cd $(cat ~/.last-session)
+"""
+key = "F2"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "F3"
+
+[window]
+decorations = "none"
+opacity = 0.9
+startup_mode = "Maximized"
+
+[window.padding]
+x = 0
+y = 0
